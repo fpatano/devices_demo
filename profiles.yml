@@ -1,0 +1,11 @@
+devices_demo:
+  outputs:
+    dev:
+      catalog: tech_summit_sql
+      host: "{{ env_var('db_host') }}"
+      http_path: "{{ env_var('db_http') }}"
+      schema: dbt
+      threads: 25
+      token: "{{ env_var('db_token') }}"
+      type: databricks
+  target: dev

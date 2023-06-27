@@ -1,0 +1,975 @@
+[0m15:33:01.296116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1026f0700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d27fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d76040>]}
+
+
+============================== 15:33:01.318201 | 33d0ee77-99e9-48a6-a71c-709d7d2e4fcc ==============================
+[0m15:33:01.318201 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:33:01.318560 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/franco.patano/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/franco.patano/devices_demo/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:33:02.010479 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "devices_demo", target "dev" invalid: Runtime Error
+    The schema should not contain '.': tech_summit_sql.dbt
+    If you are trying to set a catalog, please use `catalog` instead.
+    
+[0m15:33:02.011312 [debug] [MainThread]: Command `dbt build` failed at 15:33:02.011221 after 0.74 seconds
+[0m15:33:02.011547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1026f0700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1378d1310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1378d19a0>]}
+[0m15:33:02.011771 [debug] [MainThread]: Flushing usage events
+[0m15:35:03.358425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102914730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103f4bf40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103f4bf10>]}
+
+
+============================== 15:35:03.379954 | 23eca61b-e838-4cb5-bb6d-3ecba5a3420a ==============================
+[0m15:35:03.379954 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:35:03.380318 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/franco.patano/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/franco.patano/devices_demo/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:35:04.079910 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "devices_demo", target "dev" invalid: Runtime Error
+    The schema should not contain '.': tech_summit_sql.dbt
+    If you are trying to set a catalog, please use `catalog` instead.
+    
+[0m15:35:04.080749 [debug] [MainThread]: Command `dbt build` failed at 15:35:04.080664 after 0.75 seconds
+[0m15:35:04.080984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102914730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12a6675b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12a6675e0>]}
+[0m15:35:04.081231 [debug] [MainThread]: Flushing usage events
+[0m15:37:16.385904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e00700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10594ffa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059a40a0>]}
+
+
+============================== 15:37:16.408514 | d764cdc8-cb60-4c0c-a521-c70e1ef8c430 ==============================
+[0m15:37:16.408514 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:37:16.408906 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/franco.patano/devices_demo', 'log_path': '/Users/franco.patano/devices_demo/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:37:17.265364 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "devices_demo", target "dev" invalid: Runtime Error
+    The schema should not contain '.': tech_summit_sql.dbt
+    If you are trying to set a catalog, please use `catalog` instead.
+    
+[0m15:37:17.266066 [debug] [MainThread]: Command `dbt build` failed at 15:37:17.265975 after 0.90 seconds
+[0m15:37:17.266459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e00700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1302d59a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1302d51c0>]}
+[0m15:37:17.266745 [debug] [MainThread]: Flushing usage events
+[0m15:38:08.393905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105264220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c1e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c1e040>]}
+
+
+============================== 15:38:08.415411 | 0e86d242-638c-498b-a0e1-830f9561cd60 ==============================
+[0m15:38:08.415411 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:38:08.415790 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/franco.patano/devices_demo/logs', 'profiles_dir': '/Users/franco.patano/devices_demo', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:38:09.127280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102344d90>]}
+[0m15:38:09.136525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16cdf9670>]}
+[0m15:38:09.156939 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m15:38:09.157773 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m15:38:09.158048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16cf233d0>]}
+[0m15:38:09.827665 [debug] [MainThread]: 1699: static parser successfully parsed example/users.sql
+[0m15:38:09.836401 [debug] [MainThread]: 1699: static parser successfully parsed example/user_activity.sql
+[0m15:38:09.838891 [debug] [MainThread]: 1699: static parser successfully parsed example/devices.sql
+[0m15:38:09.860318 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'my_first_dbt_model' in the 'models' section of file 'models/example/schema.yml'
+[0m15:38:09.861301 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'my_second_dbt_model' in the 'models' section of file 'models/example/schema.yml'
+[0m15:38:09.878500 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.unique_my_first_dbt_model_id.16e066b321' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' in package '' which was not found
+[0m15:38:09.878945 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.not_null_my_first_dbt_model_id.5fb22c2710' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' in package '' which was not found
+[0m15:38:09.879196 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.unique_my_second_dbt_model_id.57a0f8c493' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' in package '' which was not found
+[0m15:38:09.879495 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.not_null_my_second_dbt_model_id.151b76d778' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' in package '' which was not found
+[0m15:38:09.905111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d0de0d0>]}
+[0m15:38:09.911315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d0ee0d0>]}
+[0m15:38:09.911708 [info ] [MainThread]: Found 3 models, 0 tests, 0 snapshots, 0 analyses, 426 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m15:38:09.912600 [info ] [MainThread]: 
+[0m15:38:09.913147 [debug] [MainThread]: Acquiring new databricks connection 'master'
+[0m15:38:09.913877 [debug] [ThreadPool]: Acquiring new databricks connection 'list_tech_summit_sql'
+[0m15:38:09.914117 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql"
+[0m15:38:09.914280 [debug] [ThreadPool]: On list_tech_summit_sql: GetSchemas(database=`tech_summit_sql`, schema=None)
+[0m15:38:09.914430 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:38:11.097924 [debug] [ThreadPool]: SQL status: OK in 1.1799999475479126 seconds
+[0m15:38:11.107091 [debug] [ThreadPool]: On list_tech_summit_sql: Close
+[0m15:38:11.264367 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tech_summit_sql, now create_tech_summit_sql_dbt)
+[0m15:38:11.266354 [debug] [ThreadPool]: Creating schema "database: "tech_summit_sql"
+schema: "dbt"
+"
+[0m15:38:11.279666 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m15:38:11.280122 [debug] [ThreadPool]: Using databricks connection "create_tech_summit_sql_dbt"
+[0m15:38:11.280452 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "create_tech_summit_sql_dbt"} */
+create schema if not exists `tech_summit_sql`.`dbt`
+  
+[0m15:38:11.280775 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:38:12.202140 [debug] [ThreadPool]: SQL status: OK in 0.9200000166893005 seconds
+[0m15:38:12.203478 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m15:38:12.203831 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: ROLLBACK
+[0m15:38:12.204122 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m15:38:12.204350 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: Close
+[0m15:38:12.426377 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_tech_summit_sql_dbt, now list_tech_summit_sql_dbt)
+[0m15:38:12.437234 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m15:38:12.437690 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: GetTables(database=tech_summit_sql, schema=dbt, identifier=None)
+[0m15:38:12.437970 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:38:13.446902 [debug] [ThreadPool]: SQL status: OK in 1.0099999904632568 seconds
+[0m15:38:13.452238 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: Close
+[0m15:38:13.596713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d0ee520>]}
+[0m15:38:13.597723 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m15:38:13.598128 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m15:38:13.598997 [info ] [MainThread]: Concurrency: 25 threads (target='dev')
+[0m15:38:13.599450 [info ] [MainThread]: 
+[0m15:38:13.608415 [debug] [Thread-1  ]: Began running node model.devices_demo.devices
+[0m15:38:13.608887 [debug] [Thread-2  ]: Began running node model.devices_demo.users
+[0m15:38:13.609492 [info ] [Thread-1  ]: 1 of 3 START sql streaming_table model dbt.devices ............................. [RUN]
+[0m15:38:13.610226 [info ] [Thread-2  ]: 2 of 3 START sql streaming_table model dbt.users ............................... [RUN]
+[0m15:38:13.611157 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_tech_summit_sql_dbt, now model.devices_demo.devices)
+[0m15:38:13.611912 [debug] [Thread-2  ]: Acquiring new databricks connection 'model.devices_demo.users'
+[0m15:38:13.612258 [debug] [Thread-1  ]: Began compiling node model.devices_demo.devices
+[0m15:38:13.612577 [debug] [Thread-2  ]: Began compiling node model.devices_demo.users
+[0m15:38:13.615530 [debug] [Thread-1  ]: Writing injected SQL for node "model.devices_demo.devices"
+[0m15:38:13.624884 [debug] [Thread-2  ]: Writing injected SQL for node "model.devices_demo.users"
+[0m15:38:13.626077 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (compile): 15:38:13.612787 => 15:38:13.625924
+[0m15:38:13.626397 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (compile): 15:38:13.615854 => 15:38:13.626237
+[0m15:38:13.626678 [debug] [Thread-1  ]: Began executing node model.devices_demo.devices
+[0m15:38:13.626929 [debug] [Thread-2  ]: Began executing node model.devices_demo.users
+[0m15:38:13.639708 [debug] [Thread-1  ]: Writing runtime sql for node "model.devices_demo.devices"
+[0m15:38:13.641805 [debug] [Thread-2  ]: Writing runtime sql for node "model.devices_demo.users"
+[0m15:38:13.643112 [debug] [Thread-2  ]: Spark adapter: NotImplemented: add_begin_query
+[0m15:38:13.643351 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m15:38:13.643528 [debug] [Thread-2  ]: Using databricks connection "model.devices_demo.users"
+[0m15:38:13.643684 [debug] [Thread-1  ]: Using databricks connection "model.devices_demo.devices"
+[0m15:38:13.643900 [debug] [Thread-2  ]: On model.devices_demo.users: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.users"} */
+create streaming table `tech_summit_sql`.`dbt`.`users`
+  as
+    
+
+SELECT CAST(userid AS INTEGER) as userid,
+          gender,
+          CAST(age AS INTEGER) as age,
+          CAST(height AS INTEGER) as height,
+          CAST(weight AS INTEGER) as weight,
+          smoker,
+          familyhistory,
+          cholestlevs,
+          bp,
+          CAST(risk AS INTEGER) as risk
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-user/*");
+
+[0m15:38:13.644138 [debug] [Thread-1  ]: On model.devices_demo.devices: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.devices"} */
+create streaming table `tech_summit_sql`.`dbt`.`devices`
+  as
+    
+
+SELECT 
+    CAST(user_id AS LONG) as user_id,
+    CAST(calories_burnt AS FLOAT) as calories_burnt,
+    CAST(num_steps AS LONG) as num_steps,
+    CAST(miles_walked AS FLOAT) as miles_walked,
+    CAST(timestamp AS TIMESTAMP) as time_stamp,
+    CAST(device_id AS LONG) as device_id
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-device/*.json");
+
+[0m15:38:13.644386 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m15:38:13.644577 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m15:38:38.343733 [debug] [Thread-2  ]: SQL status: OK in 24.700000762939453 seconds
+[0m15:38:38.530943 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (execute): 15:38:13.640001 => 15:38:38.530809
+[0m15:38:38.531274 [debug] [Thread-2  ]: On model.devices_demo.users: ROLLBACK
+[0m15:38:38.531494 [debug] [Thread-2  ]: Databricks adapter: NotImplemented: rollback
+[0m15:38:38.531684 [debug] [Thread-2  ]: On model.devices_demo.users: Close
+[0m15:38:38.668388 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d2186d0>]}
+[0m15:38:38.670387 [info ] [Thread-2  ]: 2 of 3 OK created sql streaming_table model dbt.users .......................... [[32mOK[0m in 25.06s]
+[0m15:38:38.671994 [debug] [Thread-2  ]: Finished running node model.devices_demo.users
+[0m15:38:49.100296 [debug] [Thread-1  ]: SQL status: OK in 35.459999084472656 seconds
+[0m15:38:49.289475 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (execute): 15:38:13.627138 => 15:38:49.288860
+[0m15:38:49.290831 [debug] [Thread-1  ]: On model.devices_demo.devices: ROLLBACK
+[0m15:38:49.291856 [debug] [Thread-1  ]: Databricks adapter: NotImplemented: rollback
+[0m15:38:49.292779 [debug] [Thread-1  ]: On model.devices_demo.devices: Close
+[0m15:38:49.453307 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d25e0a0>]}
+[0m15:38:49.455215 [info ] [Thread-1  ]: 1 of 3 OK created sql streaming_table model dbt.devices ........................ [[32mOK[0m in 35.84s]
+[0m15:38:49.456107 [debug] [Thread-1  ]: Finished running node model.devices_demo.devices
+[0m15:38:49.457248 [debug] [Thread-4  ]: Began running node model.devices_demo.user_activity
+[0m15:38:49.457803 [info ] [Thread-4  ]: 3 of 3 START sql materialized_view model dbt.user_activity ..................... [RUN]
+[0m15:38:49.458766 [debug] [Thread-4  ]: Acquiring new databricks connection 'model.devices_demo.user_activity'
+[0m15:38:49.459136 [debug] [Thread-4  ]: Began compiling node model.devices_demo.user_activity
+[0m15:38:49.464003 [debug] [Thread-4  ]: Writing injected SQL for node "model.devices_demo.user_activity"
+[0m15:38:49.465161 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (compile): 15:38:49.459360 => 15:38:49.464916
+[0m15:38:49.465533 [debug] [Thread-4  ]: Began executing node model.devices_demo.user_activity
+[0m15:38:49.475953 [debug] [Thread-4  ]: Writing runtime sql for node "model.devices_demo.user_activity"
+[0m15:38:49.476986 [debug] [Thread-4  ]: Spark adapter: NotImplemented: add_begin_query
+[0m15:38:49.477314 [debug] [Thread-4  ]: Using databricks connection "model.devices_demo.user_activity"
+[0m15:38:49.477583 [debug] [Thread-4  ]: On model.devices_demo.user_activity: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.user_activity"} */
+create materialized view `tech_summit_sql`.`dbt`.`user_activity`
+  as
+    
+
+SELECT
+  i.time_stamp,
+  u.risk,
+  u.age,
+  avg(i.calories_burnt) as avg_calories_burnt, 
+  COUNT(*) AS num_records,
+  AVG(i.num_steps) AS avg_num_steps,
+  AVG(i.miles_walked) AS avg_miles_walked
+FROM
+  `tech_summit_sql`.`dbt`.`devices` i
+  JOIN `tech_summit_sql`.`dbt`.`users` u
+  ON i.user_id = u.userid
+GROUP BY
+ALL
+
+[0m15:38:49.477855 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m15:39:06.284623 [debug] [Thread-4  ]: SQL status: OK in 16.809999465942383 seconds
+[0m15:39:06.466210 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (execute): 15:38:49.465760 => 15:39:06.465857
+[0m15:39:06.466858 [debug] [Thread-4  ]: On model.devices_demo.user_activity: ROLLBACK
+[0m15:39:06.467165 [debug] [Thread-4  ]: Databricks adapter: NotImplemented: rollback
+[0m15:39:06.467412 [debug] [Thread-4  ]: On model.devices_demo.user_activity: Close
+[0m15:39:06.614049 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0e86d242-638c-498b-a0e1-830f9561cd60', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d218310>]}
+[0m15:39:06.615954 [info ] [Thread-4  ]: 3 of 3 OK created sql materialized_view model dbt.user_activity ................ [[32mOK[0m in 17.16s]
+[0m15:39:06.617413 [debug] [Thread-4  ]: Finished running node model.devices_demo.user_activity
+[0m15:39:06.619562 [debug] [MainThread]: On master: ROLLBACK
+[0m15:39:06.619931 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:39:07.111577 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m15:39:07.112408 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m15:39:07.112869 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m15:39:07.113402 [debug] [MainThread]: On master: ROLLBACK
+[0m15:39:07.113759 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m15:39:07.113941 [debug] [MainThread]: On master: Close
+[0m15:39:07.249677 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:39:07.250821 [debug] [MainThread]: Connection 'model.devices_demo.devices' was properly closed.
+[0m15:39:07.251328 [debug] [MainThread]: Connection 'model.devices_demo.users' was properly closed.
+[0m15:39:07.251690 [debug] [MainThread]: Connection 'model.devices_demo.user_activity' was properly closed.
+[0m15:39:07.256051 [info ] [MainThread]: 
+[0m15:39:07.256545 [info ] [MainThread]: Finished running 2 streaming_table models, 1 materialized_view model in 0 hours 0 minutes and 57.34 seconds (57.34s).
+[0m15:39:07.257519 [debug] [MainThread]: Command end result
+[0m15:39:07.272936 [info ] [MainThread]: 
+[0m15:39:07.273312 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:39:07.273537 [info ] [MainThread]: 
+[0m15:39:07.273756 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m15:39:07.275263 [debug] [MainThread]: Command `dbt build` succeeded at 15:39:07.275195 after 58.90 seconds
+[0m15:39:07.275492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105264220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16cf23430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16d099a90>]}
+[0m15:39:07.275726 [debug] [MainThread]: Flushing usage events
+[0m15:39:51.003775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10493c220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10618ff70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10618ff40>]}
+
+
+============================== 15:39:51.025741 | adc00dcf-7777-47ad-ac93-d9edb4e79990 ==============================
+[0m15:39:51.025741 [info ] [MainThread]: Running with dbt=1.5.0
+[0m15:39:51.026105 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/franco.patano/devices_demo', 'log_path': '/Users/franco.patano/devices_demo/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:39:51.722122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102779ee0>]}
+[0m15:39:51.731439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12e9745b0>]}
+[0m15:39:51.747790 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m15:39:51.785485 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:39:51.785819 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:39:51.790472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12ec53df0>]}
+[0m15:39:51.796431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12eb6e7f0>]}
+[0m15:39:51.796771 [info ] [MainThread]: Found 3 models, 0 tests, 0 snapshots, 0 analyses, 426 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m15:39:51.797028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12eb6e880>]}
+[0m15:39:51.797988 [info ] [MainThread]: 
+[0m15:39:51.798531 [debug] [MainThread]: Acquiring new databricks connection 'master'
+[0m15:39:51.799316 [debug] [ThreadPool]: Acquiring new databricks connection 'list_tech_summit_sql'
+[0m15:39:51.799602 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql"
+[0m15:39:51.799814 [debug] [ThreadPool]: On list_tech_summit_sql: GetSchemas(database=`tech_summit_sql`, schema=None)
+[0m15:39:51.799996 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:39:52.524450 [debug] [ThreadPool]: SQL status: OK in 0.7200000286102295 seconds
+[0m15:39:52.530501 [debug] [ThreadPool]: On list_tech_summit_sql: Close
+[0m15:39:52.675886 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tech_summit_sql, now create_tech_summit_sql_dbt)
+[0m15:39:52.677145 [debug] [ThreadPool]: Creating schema "database: "tech_summit_sql"
+schema: "dbt"
+"
+[0m15:39:52.686692 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m15:39:52.687061 [debug] [ThreadPool]: Using databricks connection "create_tech_summit_sql_dbt"
+[0m15:39:52.687322 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "create_tech_summit_sql_dbt"} */
+create schema if not exists `tech_summit_sql`.`dbt`
+  
+[0m15:39:52.687555 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:39:53.408943 [debug] [ThreadPool]: SQL status: OK in 0.7200000286102295 seconds
+[0m15:39:53.409885 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m15:39:53.410141 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: ROLLBACK
+[0m15:39:53.410322 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m15:39:53.410479 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: Close
+[0m15:39:53.546364 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_tech_summit_sql_dbt, now list_tech_summit_sql_dbt)
+[0m15:39:53.555292 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m15:39:53.555629 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: GetTables(database=tech_summit_sql, schema=dbt, identifier=None)
+[0m15:39:53.555880 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:39:54.302268 [debug] [ThreadPool]: SQL status: OK in 0.75 seconds
+[0m15:39:54.313420 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m15:39:54.313816 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m15:39:54.314097 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      select current_catalog()
+  
+[0m15:39:54.607313 [debug] [ThreadPool]: SQL status: OK in 0.28999999165534973 seconds
+[0m15:39:54.612931 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m15:39:54.613272 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+show views in `tech_summit_sql`.`dbt`
+  
+[0m15:39:54.854023 [debug] [ThreadPool]: SQL status: OK in 0.23999999463558197 seconds
+[0m15:39:54.870259 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m15:39:54.870724 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      describe extended `tech_summit_sql`.`dbt`.`users`
+  
+[0m15:39:56.095911 [debug] [ThreadPool]: SQL status: OK in 1.2200000286102295 seconds
+[0m15:39:56.104492 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m15:39:56.104993 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      describe extended `tech_summit_sql`.`dbt`.`devices`
+  
+[0m15:39:57.231038 [debug] [ThreadPool]: SQL status: OK in 1.1299999952316284 seconds
+[0m15:39:57.236593 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: ROLLBACK
+[0m15:39:57.237123 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m15:39:57.237470 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: Close
+[0m15:39:57.382667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103363310>]}
+[0m15:39:57.383980 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m15:39:57.384540 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m15:39:57.385629 [info ] [MainThread]: Concurrency: 25 threads (target='dev')
+[0m15:39:57.386234 [info ] [MainThread]: 
+[0m15:39:57.393870 [debug] [Thread-1  ]: Began running node model.devices_demo.devices
+[0m15:39:57.394552 [debug] [Thread-2  ]: Began running node model.devices_demo.users
+[0m15:39:57.395359 [info ] [Thread-1  ]: 1 of 3 START sql streaming_table model dbt.devices ............................. [RUN]
+[0m15:39:57.396528 [info ] [Thread-2  ]: 2 of 3 START sql streaming_table model dbt.users ............................... [RUN]
+[0m15:39:57.397803 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_tech_summit_sql_dbt, now model.devices_demo.devices)
+[0m15:39:57.398844 [debug] [Thread-2  ]: Acquiring new databricks connection 'model.devices_demo.users'
+[0m15:39:57.399281 [debug] [Thread-1  ]: Began compiling node model.devices_demo.devices
+[0m15:39:57.399675 [debug] [Thread-2  ]: Began compiling node model.devices_demo.users
+[0m15:39:57.403304 [debug] [Thread-1  ]: Writing injected SQL for node "model.devices_demo.devices"
+[0m15:39:57.406211 [debug] [Thread-2  ]: Writing injected SQL for node "model.devices_demo.users"
+[0m15:39:57.407224 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (compile): 15:39:57.399936 => 15:39:57.406971
+[0m15:39:57.407731 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (compile): 15:39:57.403636 => 15:39:57.407464
+[0m15:39:57.408134 [debug] [Thread-1  ]: Began executing node model.devices_demo.devices
+[0m15:39:57.408471 [debug] [Thread-2  ]: Began executing node model.devices_demo.users
+[0m15:39:57.423824 [debug] [Thread-1  ]: Writing runtime sql for node "model.devices_demo.devices"
+[0m15:39:57.426320 [debug] [Thread-2  ]: Writing runtime sql for node "model.devices_demo.users"
+[0m15:39:57.427121 [debug] [Thread-2  ]: Spark adapter: NotImplemented: add_begin_query
+[0m15:39:57.427386 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m15:39:57.427575 [debug] [Thread-2  ]: Using databricks connection "model.devices_demo.users"
+[0m15:39:57.427753 [debug] [Thread-1  ]: Using databricks connection "model.devices_demo.devices"
+[0m15:39:57.428033 [debug] [Thread-2  ]: On model.devices_demo.users: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.users"} */
+create or refresh streaming table `tech_summit_sql`.`dbt`.`users`
+  as
+    
+
+SELECT CAST(userid AS INTEGER) as userid,
+          gender,
+          CAST(age AS INTEGER) as age,
+          CAST(height AS INTEGER) as height,
+          CAST(weight AS INTEGER) as weight,
+          smoker,
+          familyhistory,
+          cholestlevs,
+          bp,
+          CAST(risk AS INTEGER) as risk
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-user/*");
+
+[0m15:39:57.428331 [debug] [Thread-1  ]: On model.devices_demo.devices: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.devices"} */
+create or refresh streaming table `tech_summit_sql`.`dbt`.`devices`
+  as
+    
+
+SELECT 
+    CAST(user_id AS LONG) as user_id,
+    CAST(calories_burnt AS FLOAT) as calories_burnt,
+    CAST(num_steps AS LONG) as num_steps,
+    CAST(miles_walked AS FLOAT) as miles_walked,
+    CAST(timestamp AS TIMESTAMP) as time_stamp,
+    CAST(device_id AS LONG) as device_id
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-device/*.json");
+
+[0m15:39:57.428611 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m15:39:57.428833 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m15:39:59.609002 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 7b74839d-b996-4559-9cb9-8ec41d0b372a CREATED
+[0m15:39:59.629175 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d4a2ff91-eb1b-4a0f-8877-61e614e1b108 CREATED
+[0m15:40:10.112554 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d4a2ff91-eb1b-4a0f-8877-61e614e1b108 WAITING_FOR_RESOURCES
+[0m15:40:10.116685 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 7b74839d-b996-4559-9cb9-8ec41d0b372a WAITING_FOR_RESOURCES
+[0m15:43:18.875673 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 7b74839d-b996-4559-9cb9-8ec41d0b372a SETTING_UP_TABLES
+[0m15:43:19.146488 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d4a2ff91-eb1b-4a0f-8877-61e614e1b108 SETTING_UP_TABLES
+[0m15:43:29.359398 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 7b74839d-b996-4559-9cb9-8ec41d0b372a COMPLETED
+[0m15:43:29.360347 [debug] [Thread-2  ]: SQL status: OK in 211.92999267578125 seconds
+[0m15:43:29.375277 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (execute): 15:39:57.424154 => 15:43:29.375035
+[0m15:43:29.375792 [debug] [Thread-2  ]: On model.devices_demo.users: ROLLBACK
+[0m15:43:29.376206 [debug] [Thread-2  ]: Databricks adapter: NotImplemented: rollback
+[0m15:43:29.376531 [debug] [Thread-2  ]: On model.devices_demo.users: Close
+[0m15:43:29.747677 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d4a2ff91-eb1b-4a0f-8877-61e614e1b108 COMPLETED
+[0m15:43:29.749456 [debug] [Thread-1  ]: SQL status: OK in 212.32000732421875 seconds
+[0m15:43:29.753434 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (execute): 15:39:57.408679 => 15:43:29.753118
+[0m15:43:29.753980 [debug] [Thread-1  ]: On model.devices_demo.devices: ROLLBACK
+[0m15:43:29.754414 [debug] [Thread-1  ]: Databricks adapter: NotImplemented: rollback
+[0m15:43:29.754792 [debug] [Thread-1  ]: On model.devices_demo.devices: Close
+[0m15:43:29.822786 [debug] [Thread-2  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:29.823620 [debug] [Thread-2  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:29.824000 [debug] [Thread-2  ]: Databricks adapter: attempt: 1/30
+[0m15:43:29.824331 [debug] [Thread-2  ]: Databricks adapter: bounded-retry-delay: None
+[0m15:43:29.824652 [debug] [Thread-2  ]: Databricks adapter: elapsed-seconds: 0.4454498291015625/900.0
+[0m15:43:29.824974 [debug] [Thread-2  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:29.825290 [debug] [Thread-2  ]: Databricks adapter: http-code: 400
+[0m15:43:29.825592 [debug] [Thread-2  ]: Databricks adapter: method: CloseSession
+[0m15:43:29.825931 [debug] [Thread-2  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m15:43:29.826243 [debug] [Thread-2  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:29.826549 [debug] [Thread-2  ]: Databricks adapter: query-id: None
+[0m15:43:29.826845 [debug] [Thread-2  ]: Databricks adapter: session-id: b'\x01\xee\x11<\xf3\xb0\x1a\xd4\xa7\x10h,3\xb8hf'
+[0m15:43:29.827834 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12ede8400>]}
+[0m15:43:29.828505 [info ] [Thread-2  ]: 2 of 3 OK created sql streaming_table model dbt.users .......................... [[32mOK[0m in 212.43s]
+[0m15:43:29.829102 [debug] [Thread-2  ]: Finished running node model.devices_demo.users
+[0m15:43:30.222945 [debug] [Thread-1  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:30.224432 [debug] [Thread-1  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:30.224919 [debug] [Thread-1  ]: Databricks adapter: attempt: 1/30
+[0m15:43:30.225371 [debug] [Thread-1  ]: Databricks adapter: bounded-retry-delay: None
+[0m15:43:30.225816 [debug] [Thread-1  ]: Databricks adapter: elapsed-seconds: 0.46694183349609375/900.0
+[0m15:43:30.226272 [debug] [Thread-1  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:30.226723 [debug] [Thread-1  ]: Databricks adapter: http-code: 400
+[0m15:43:30.227162 [debug] [Thread-1  ]: Databricks adapter: method: CloseSession
+[0m15:43:30.227597 [debug] [Thread-1  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m15:43:30.228043 [debug] [Thread-1  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:43:30.228490 [debug] [Thread-1  ]: Databricks adapter: query-id: None
+[0m15:43:30.228924 [debug] [Thread-1  ]: Databricks adapter: session-id: b'\x01\xee\x11<\xf3\xad\x14h\xadi\xcewk\xdf\xc3\xc6'
+[0m15:43:30.230989 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12edcfc40>]}
+[0m15:43:30.231835 [info ] [Thread-1  ]: 1 of 3 OK created sql streaming_table model dbt.devices ........................ [[32mOK[0m in 212.83s]
+[0m15:43:30.232323 [debug] [Thread-1  ]: Finished running node model.devices_demo.devices
+[0m15:43:30.233101 [debug] [Thread-4  ]: Began running node model.devices_demo.user_activity
+[0m15:43:30.233538 [info ] [Thread-4  ]: 3 of 3 START sql materialized_view model dbt.user_activity ..................... [RUN]
+[0m15:43:30.234192 [debug] [Thread-4  ]: Acquiring new databricks connection 'model.devices_demo.user_activity'
+[0m15:43:30.234440 [debug] [Thread-4  ]: Began compiling node model.devices_demo.user_activity
+[0m15:43:30.237438 [debug] [Thread-4  ]: Writing injected SQL for node "model.devices_demo.user_activity"
+[0m15:43:30.238311 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (compile): 15:43:30.234585 => 15:43:30.238178
+[0m15:43:30.238550 [debug] [Thread-4  ]: Began executing node model.devices_demo.user_activity
+[0m15:43:30.246822 [debug] [Thread-4  ]: Writing runtime sql for node "model.devices_demo.user_activity"
+[0m15:43:30.247591 [debug] [Thread-4  ]: Spark adapter: NotImplemented: add_begin_query
+[0m15:43:30.247770 [debug] [Thread-4  ]: Using databricks connection "model.devices_demo.user_activity"
+[0m15:43:30.247944 [debug] [Thread-4  ]: On model.devices_demo.user_activity: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.user_activity"} */
+refresh materialized view `tech_summit_sql`.`dbt`.`user_activity`
+
+[0m15:43:30.248137 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m15:43:32.446758 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 1ee87a72-115f-4f06-82a7-506704ea9a41 CREATED
+[0m15:43:42.937098 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 1ee87a72-115f-4f06-82a7-506704ea9a41 WAITING_FOR_RESOURCES
+[0m15:46:09.635484 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 1ee87a72-115f-4f06-82a7-506704ea9a41 INITIALIZING
+[0m15:46:20.139002 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 1ee87a72-115f-4f06-82a7-506704ea9a41 RUNNING
+[0m15:46:41.145655 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 1ee87a72-115f-4f06-82a7-506704ea9a41 COMPLETED
+[0m15:46:41.146482 [debug] [Thread-4  ]: SQL status: OK in 190.89999389648438 seconds
+[0m15:46:41.148572 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (execute): 15:43:30.238701 => 15:46:41.148391
+[0m15:46:41.148860 [debug] [Thread-4  ]: On model.devices_demo.user_activity: ROLLBACK
+[0m15:46:41.149099 [debug] [Thread-4  ]: Databricks adapter: NotImplemented: rollback
+[0m15:46:41.149300 [debug] [Thread-4  ]: On model.devices_demo.user_activity: Close
+[0m15:46:41.603581 [debug] [Thread-4  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:46:41.605309 [debug] [Thread-4  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:46:41.605830 [debug] [Thread-4  ]: Databricks adapter: attempt: 1/30
+[0m15:46:41.606056 [debug] [Thread-4  ]: Databricks adapter: bounded-retry-delay: None
+[0m15:46:41.606262 [debug] [Thread-4  ]: Databricks adapter: elapsed-seconds: 0.45296502113342285/900.0
+[0m15:46:41.606464 [debug] [Thread-4  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:46:41.606659 [debug] [Thread-4  ]: Databricks adapter: http-code: 400
+[0m15:46:41.606853 [debug] [Thread-4  ]: Databricks adapter: method: CloseSession
+[0m15:46:41.607034 [debug] [Thread-4  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m15:46:41.607217 [debug] [Thread-4  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m15:46:41.607404 [debug] [Thread-4  ]: Databricks adapter: query-id: None
+[0m15:46:41.607578 [debug] [Thread-4  ]: Databricks adapter: session-id: b"\x01\xee\x11=r\x84\x1bY\xba'\xcb\x12y*\xd0}"
+[0m15:46:41.608351 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'adc00dcf-7777-47ad-ac93-d9edb4e79990', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12f1429a0>]}
+[0m15:46:41.608895 [info ] [Thread-4  ]: 3 of 3 OK created sql materialized_view model dbt.user_activity ................ [[32mOK[0m in 191.37s]
+[0m15:46:41.609332 [debug] [Thread-4  ]: Finished running node model.devices_demo.user_activity
+[0m15:46:41.610729 [debug] [MainThread]: On master: ROLLBACK
+[0m15:46:41.610960 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:46:42.101379 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m15:46:42.102737 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m15:46:42.102980 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m15:46:42.103181 [debug] [MainThread]: On master: ROLLBACK
+[0m15:46:42.103344 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m15:46:42.103498 [debug] [MainThread]: On master: Close
+[0m15:46:42.239973 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:46:42.240274 [debug] [MainThread]: Connection 'model.devices_demo.devices' was properly closed.
+[0m15:46:42.240434 [debug] [MainThread]: Connection 'model.devices_demo.users' was properly closed.
+[0m15:46:42.240572 [debug] [MainThread]: Connection 'model.devices_demo.user_activity' was properly closed.
+[0m15:46:42.242891 [info ] [MainThread]: 
+[0m15:46:42.243165 [info ] [MainThread]: Finished running 2 streaming_table models, 1 materialized_view model in 0 hours 6 minutes and 50.44 seconds (410.44s).
+[0m15:46:42.243728 [debug] [MainThread]: Command end result
+[0m15:46:42.248640 [info ] [MainThread]: 
+[0m15:46:42.248963 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:46:42.249185 [info ] [MainThread]: 
+[0m15:46:42.249418 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m15:46:42.250045 [debug] [MainThread]: Command `dbt run` succeeded at 15:46:42.249959 after 411.27 seconds
+[0m15:46:42.250285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10493c220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12e9745b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12e9a4130>]}
+[0m15:46:42.250515 [debug] [MainThread]: Flushing usage events
+[0m12:21:37.690088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107623670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a24feb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a24fe20>]}
+
+
+============================== 12:21:37.712812 | dec40984-3801-4f7b-b8f2-ad7fcc93feec ==============================
+[0m12:21:37.712812 [info ] [MainThread]: Running with dbt=1.5.0
+[0m12:21:37.713179 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/franco.patano/dbt_projects/devices_demo', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/franco.patano/dbt_projects/devices_demo/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:21:37.717035 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'db_host'
+[0m12:21:37.717490 [debug] [MainThread]: Command `dbt build` failed at 12:21:37.717428 after 0.05 seconds
+[0m12:21:37.717687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107623670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a24fe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a24ffd0>]}
+[0m12:21:37.717890 [debug] [MainThread]: Flushing usage events
+[0m12:22:00.721849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fe4670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11094feb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11094fe80>]}
+
+
+============================== 12:22:00.745801 | 6fd2d2f2-2c44-4bba-9882-bb338468cb56 ==============================
+[0m12:22:00.745801 [info ] [MainThread]: Running with dbt=1.5.0
+[0m12:22:00.746372 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/franco.patano/dbt_projects/devices_demo', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/franco.patano/dbt_projects/devices_demo/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:22:00.749960 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'db_host'
+[0m12:22:00.750539 [debug] [MainThread]: Command `dbt build` failed at 12:22:00.750446 after 0.05 seconds
+[0m12:22:00.750749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fe4670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11094fe20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11094ffd0>]}
+[0m12:22:00.750988 [debug] [MainThread]: Flushing usage events
+[0m12:25:49.396039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102930340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104390ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104390e50>]}
+
+
+============================== 12:25:49.425669 | 1072cbec-6620-47aa-83b2-5221ba868df8 ==============================
+[0m12:25:49.425669 [info ] [MainThread]: Running with dbt=1.5.0
+[0m12:25:49.426121 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/franco.patano/dbt_projects/devices_demo/logs', 'debug': 'False', 'profiles_dir': '/Users/franco.patano/dbt_projects/devices_demo', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:25:50.450824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100865cd0>]}
+[0m12:25:50.460375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f83b7f0>]}
+[0m12:25:50.480662 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m12:25:50.488856 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m12:25:50.489269 [info ] [MainThread]: Unable to do partial parsing because env vars used in profiles.yml have changed
+[0m12:25:50.489574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f863040>]}
+[0m12:25:51.164223 [debug] [MainThread]: 1699: static parser successfully parsed example/users.sql
+[0m12:25:51.172865 [debug] [MainThread]: 1699: static parser successfully parsed example/user_activity.sql
+[0m12:25:51.175563 [debug] [MainThread]: 1699: static parser successfully parsed example/devices.sql
+[0m12:25:51.198477 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'my_first_dbt_model' in the 'models' section of file 'models/example/schema.yml'
+[0m12:25:51.199625 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'my_second_dbt_model' in the 'models' section of file 'models/example/schema.yml'
+[0m12:25:51.216194 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.unique_my_first_dbt_model_id.16e066b321' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' in package '' which was not found
+[0m12:25:51.216556 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.not_null_my_first_dbt_model_id.5fb22c2710' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' in package '' which was not found
+[0m12:25:51.216793 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.unique_my_second_dbt_model_id.57a0f8c493' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' in package '' which was not found
+[0m12:25:51.217015 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.devices_demo.not_null_my_second_dbt_model_id.151b76d778' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' in package '' which was not found
+[0m12:25:51.238776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11fb679a0>]}
+[0m12:25:51.244464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11fb8c8b0>]}
+[0m12:25:51.244739 [info ] [MainThread]: Found 3 models, 0 tests, 0 snapshots, 0 analyses, 426 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m12:25:51.245567 [info ] [MainThread]: 
+[0m12:25:51.246053 [debug] [MainThread]: Acquiring new databricks connection 'master'
+[0m12:25:51.246739 [debug] [ThreadPool]: Acquiring new databricks connection 'list_tech_summit_sql'
+[0m12:25:51.246982 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql"
+[0m12:25:51.247153 [debug] [ThreadPool]: On list_tech_summit_sql: GetSchemas(database=`tech_summit_sql`, schema=None)
+[0m12:25:51.247306 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:25:52.330134 [debug] [ThreadPool]: SQL status: OK in 1.0800000429153442 seconds
+[0m12:25:52.341965 [debug] [ThreadPool]: On list_tech_summit_sql: Close
+[0m12:25:52.526364 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tech_summit_sql, now create_tech_summit_sql_dbt)
+[0m12:25:52.528830 [debug] [ThreadPool]: Creating schema "database: "tech_summit_sql"
+schema: "dbt"
+"
+[0m12:25:52.542294 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m12:25:52.542727 [debug] [ThreadPool]: Using databricks connection "create_tech_summit_sql_dbt"
+[0m12:25:52.543056 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "create_tech_summit_sql_dbt"} */
+create schema if not exists `tech_summit_sql`.`dbt`
+  
+[0m12:25:52.543334 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:25:53.544920 [debug] [ThreadPool]: SQL status: OK in 1.0 seconds
+[0m12:25:53.547174 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m12:25:53.547662 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: ROLLBACK
+[0m12:25:53.548026 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m12:25:53.548343 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: Close
+[0m12:25:53.743027 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_tech_summit_sql_dbt, now list_tech_summit_sql_dbt)
+[0m12:25:53.747845 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:25:53.748141 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: GetTables(database=tech_summit_sql, schema=dbt, identifier=None)
+[0m12:25:53.748343 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:25:54.780455 [debug] [ThreadPool]: SQL status: OK in 1.0299999713897705 seconds
+[0m12:25:54.791458 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m12:25:54.791954 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:25:54.792241 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      select current_catalog()
+  
+[0m12:25:55.069645 [debug] [ThreadPool]: SQL status: OK in 0.2800000011920929 seconds
+[0m12:25:55.079417 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:25:55.079712 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+show views in `tech_summit_sql`.`dbt`
+  
+[0m12:25:55.437840 [debug] [ThreadPool]: SQL status: OK in 0.36000001430511475 seconds
+[0m12:25:55.447451 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:25:55.447945 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      describe extended `tech_summit_sql`.`dbt`.`users`
+  
+[0m12:25:56.513211 [debug] [ThreadPool]: SQL status: OK in 1.059999942779541 seconds
+[0m12:25:56.521896 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:25:56.522370 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      describe extended `tech_summit_sql`.`dbt`.`devices`
+  
+[0m12:25:57.210845 [debug] [ThreadPool]: SQL status: OK in 0.6899999976158142 seconds
+[0m12:25:57.214253 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: ROLLBACK
+[0m12:25:57.214548 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m12:25:57.214726 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: Close
+[0m12:25:57.417005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11fab0f70>]}
+[0m12:25:57.417811 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m12:25:57.418218 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m12:25:57.419206 [info ] [MainThread]: Concurrency: 25 threads (target='dev')
+[0m12:25:57.419752 [info ] [MainThread]: 
+[0m12:25:57.428462 [debug] [Thread-1  ]: Began running node model.devices_demo.devices
+[0m12:25:57.428853 [debug] [Thread-2  ]: Began running node model.devices_demo.users
+[0m12:25:57.429455 [info ] [Thread-1  ]: 1 of 3 START sql streaming_table model dbt.devices ............................. [RUN]
+[0m12:25:57.430016 [info ] [Thread-2  ]: 2 of 3 START sql streaming_table model dbt.users ............................... [RUN]
+[0m12:25:57.430929 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_tech_summit_sql_dbt, now model.devices_demo.devices)
+[0m12:25:57.431745 [debug] [Thread-2  ]: Acquiring new databricks connection 'model.devices_demo.users'
+[0m12:25:57.432141 [debug] [Thread-1  ]: Began compiling node model.devices_demo.devices
+[0m12:25:57.432487 [debug] [Thread-2  ]: Began compiling node model.devices_demo.users
+[0m12:25:57.436391 [debug] [Thread-1  ]: Writing injected SQL for node "model.devices_demo.devices"
+[0m12:25:57.439058 [debug] [Thread-2  ]: Writing injected SQL for node "model.devices_demo.users"
+[0m12:25:57.440469 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (compile): 12:25:57.432718 => 12:25:57.440292
+[0m12:25:57.440805 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (compile): 12:25:57.436640 => 12:25:57.440659
+[0m12:25:57.441064 [debug] [Thread-1  ]: Began executing node model.devices_demo.devices
+[0m12:25:57.441327 [debug] [Thread-2  ]: Began executing node model.devices_demo.users
+[0m12:25:57.456503 [debug] [Thread-1  ]: Writing runtime sql for node "model.devices_demo.devices"
+[0m12:25:57.458892 [debug] [Thread-2  ]: Writing runtime sql for node "model.devices_demo.users"
+[0m12:25:57.459836 [debug] [Thread-2  ]: Spark adapter: NotImplemented: add_begin_query
+[0m12:25:57.460102 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m12:25:57.460289 [debug] [Thread-2  ]: Using databricks connection "model.devices_demo.users"
+[0m12:25:57.460461 [debug] [Thread-1  ]: Using databricks connection "model.devices_demo.devices"
+[0m12:25:57.460674 [debug] [Thread-2  ]: On model.devices_demo.users: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.users"} */
+create or refresh streaming table `tech_summit_sql`.`dbt`.`users`
+  as
+    
+
+SELECT CAST(userid AS INTEGER) as userid,
+          gender,
+          CAST(age AS INTEGER) as age,
+          CAST(height AS INTEGER) as height,
+          CAST(weight AS INTEGER) as weight,
+          smoker,
+          familyhistory,
+          cholestlevs,
+          bp,
+          CAST(risk AS INTEGER) as risk
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-user/*");
+
+[0m12:25:57.460917 [debug] [Thread-1  ]: On model.devices_demo.devices: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.devices"} */
+create or refresh streaming table `tech_summit_sql`.`dbt`.`devices`
+  as
+    
+
+SELECT 
+    CAST(user_id AS LONG) as user_id,
+    CAST(calories_burnt AS FLOAT) as calories_burnt,
+    CAST(num_steps AS LONG) as num_steps,
+    CAST(miles_walked AS FLOAT) as miles_walked,
+    CAST(timestamp AS TIMESTAMP) as time_stamp,
+    CAST(device_id AS LONG) as device_id
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-device/*.json");
+
+[0m12:25:57.461160 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m12:25:57.461376 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:26:00.135522 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 478858f5-aa6b-41cf-adb0-4bedfc391b6d CREATED
+[0m12:26:00.144010 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d9ef9435-3a28-45af-881e-d3b8235784dc CREATED
+[0m12:26:11.176990 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 478858f5-aa6b-41cf-adb0-4bedfc391b6d WAITING_FOR_RESOURCES
+[0m12:26:11.181511 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d9ef9435-3a28-45af-881e-d3b8235784dc WAITING_FOR_RESOURCES
+[0m12:28:27.779491 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 478858f5-aa6b-41cf-adb0-4bedfc391b6d INITIALIZING
+[0m12:28:38.296493 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 478858f5-aa6b-41cf-adb0-4bedfc391b6d RUNNING
+[0m12:28:48.779661 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 478858f5-aa6b-41cf-adb0-4bedfc391b6d COMPLETED
+[0m12:28:48.781287 [debug] [Thread-2  ]: SQL status: OK in 171.32000732421875 seconds
+[0m12:28:48.801226 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (execute): 12:25:57.456789 => 12:28:48.801079
+[0m12:28:48.801596 [debug] [Thread-2  ]: On model.devices_demo.users: ROLLBACK
+[0m12:28:48.801842 [debug] [Thread-2  ]: Databricks adapter: NotImplemented: rollback
+[0m12:28:48.802056 [debug] [Thread-2  ]: On model.devices_demo.users: Close
+[0m12:28:48.928112 [debug] [Thread-2  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:28:48.928955 [debug] [Thread-2  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:28:48.929560 [debug] [Thread-2  ]: Databricks adapter: attempt: 1/30
+[0m12:28:48.930088 [debug] [Thread-2  ]: Databricks adapter: bounded-retry-delay: None
+[0m12:28:48.930723 [debug] [Thread-2  ]: Databricks adapter: elapsed-seconds: 0.12307906150817871/900.0
+[0m12:28:48.931237 [debug] [Thread-2  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:28:48.931778 [debug] [Thread-2  ]: Databricks adapter: http-code: 400
+[0m12:28:48.932262 [debug] [Thread-2  ]: Databricks adapter: method: CloseSession
+[0m12:28:48.932728 [debug] [Thread-2  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m12:28:48.933181 [debug] [Thread-2  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:28:48.933625 [debug] [Thread-2  ]: Databricks adapter: query-id: None
+[0m12:28:48.934072 [debug] [Thread-2  ]: Databricks adapter: session-id: b'\x01\xee\x11\xeb\x05S\x18b\xb3\x1f\x9c\x0e\xff\xc0\xdfs'
+[0m12:28:48.935374 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ff04eb0>]}
+[0m12:28:48.936239 [info ] [Thread-2  ]: 2 of 3 OK created sql streaming_table model dbt.users .......................... [[32mOK[0m in 171.50s]
+[0m12:28:48.937181 [debug] [Thread-2  ]: Finished running node model.devices_demo.users
+[0m12:29:20.318571 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d9ef9435-3a28-45af-881e-d3b8235784dc SETTING_UP_TABLES
+[0m12:29:30.791094 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d9ef9435-3a28-45af-881e-d3b8235784dc RUNNING
+[0m12:29:41.262059 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: d9ef9435-3a28-45af-881e-d3b8235784dc COMPLETED
+[0m12:29:41.264364 [debug] [Thread-1  ]: SQL status: OK in 223.8000030517578 seconds
+[0m12:29:41.269692 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (execute): 12:25:57.441503 => 12:29:41.269291
+[0m12:29:41.270852 [debug] [Thread-1  ]: On model.devices_demo.devices: ROLLBACK
+[0m12:29:41.271691 [debug] [Thread-1  ]: Databricks adapter: NotImplemented: rollback
+[0m12:29:41.272320 [debug] [Thread-1  ]: On model.devices_demo.devices: Close
+[0m12:29:41.719735 [debug] [Thread-1  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:29:41.722073 [debug] [Thread-1  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:29:41.723360 [debug] [Thread-1  ]: Databricks adapter: attempt: 1/30
+[0m12:29:41.723986 [debug] [Thread-1  ]: Databricks adapter: bounded-retry-delay: None
+[0m12:29:41.724743 [debug] [Thread-1  ]: Databricks adapter: elapsed-seconds: 0.4452390670776367/900.0
+[0m12:29:41.725455 [debug] [Thread-1  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:29:41.726261 [debug] [Thread-1  ]: Databricks adapter: http-code: 400
+[0m12:29:41.727809 [debug] [Thread-1  ]: Databricks adapter: method: CloseSession
+[0m12:29:41.728938 [debug] [Thread-1  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m12:29:41.729823 [debug] [Thread-1  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:29:41.730604 [debug] [Thread-1  ]: Databricks adapter: query-id: None
+[0m12:29:41.731274 [debug] [Thread-1  ]: Databricks adapter: session-id: b'\x01\xee\x11\xeb\x05O\x13\xe9\x990\x1f\xc8\x8b\xdc6\xab'
+[0m12:29:41.733805 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ff6a4c0>]}
+[0m12:29:41.735743 [info ] [Thread-1  ]: 1 of 3 OK created sql streaming_table model dbt.devices ........................ [[32mOK[0m in 224.30s]
+[0m12:29:41.737165 [debug] [Thread-1  ]: Finished running node model.devices_demo.devices
+[0m12:29:41.738302 [debug] [Thread-4  ]: Began running node model.devices_demo.user_activity
+[0m12:29:41.739177 [info ] [Thread-4  ]: 3 of 3 START sql materialized_view model dbt.user_activity ..................... [RUN]
+[0m12:29:41.740370 [debug] [Thread-4  ]: Acquiring new databricks connection 'model.devices_demo.user_activity'
+[0m12:29:41.741019 [debug] [Thread-4  ]: Began compiling node model.devices_demo.user_activity
+[0m12:29:41.746982 [debug] [Thread-4  ]: Writing injected SQL for node "model.devices_demo.user_activity"
+[0m12:29:41.750488 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (compile): 12:29:41.741362 => 12:29:41.750195
+[0m12:29:41.750977 [debug] [Thread-4  ]: Began executing node model.devices_demo.user_activity
+[0m12:29:41.765483 [debug] [Thread-4  ]: Writing runtime sql for node "model.devices_demo.user_activity"
+[0m12:29:41.766925 [debug] [Thread-4  ]: Spark adapter: NotImplemented: add_begin_query
+[0m12:29:41.767238 [debug] [Thread-4  ]: Using databricks connection "model.devices_demo.user_activity"
+[0m12:29:41.767525 [debug] [Thread-4  ]: On model.devices_demo.user_activity: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.user_activity"} */
+refresh materialized view `tech_summit_sql`.`dbt`.`user_activity`
+
+[0m12:29:41.767838 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m12:29:43.887797 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 5270f280-6b71-4f6e-99c7-ff7fc34cc93d CREATED
+[0m12:29:54.372399 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 5270f280-6b71-4f6e-99c7-ff7fc34cc93d WAITING_FOR_RESOURCES
+[0m12:32:11.303255 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 5270f280-6b71-4f6e-99c7-ff7fc34cc93d INITIALIZING
+[0m12:32:21.779559 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 5270f280-6b71-4f6e-99c7-ff7fc34cc93d RUNNING
+[0m12:32:32.245564 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 5270f280-6b71-4f6e-99c7-ff7fc34cc93d COMPLETED
+[0m12:32:32.249137 [debug] [Thread-4  ]: SQL status: OK in 170.47999572753906 seconds
+[0m12:32:32.256256 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (execute): 12:29:41.751272 => 12:32:32.255758
+[0m12:32:32.257159 [debug] [Thread-4  ]: On model.devices_demo.user_activity: ROLLBACK
+[0m12:32:32.257813 [debug] [Thread-4  ]: Databricks adapter: NotImplemented: rollback
+[0m12:32:32.258445 [debug] [Thread-4  ]: On model.devices_demo.user_activity: Close
+[0m12:32:32.410605 [debug] [Thread-4  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:32:32.412824 [debug] [Thread-4  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:32:32.414152 [debug] [Thread-4  ]: Databricks adapter: attempt: 1/30
+[0m12:32:32.415576 [debug] [Thread-4  ]: Databricks adapter: bounded-retry-delay: None
+[0m12:32:32.416666 [debug] [Thread-4  ]: Databricks adapter: elapsed-seconds: 0.15001988410949707/900.0
+[0m12:32:32.417750 [debug] [Thread-4  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:32:32.418786 [debug] [Thread-4  ]: Databricks adapter: http-code: 400
+[0m12:32:32.419564 [debug] [Thread-4  ]: Databricks adapter: method: CloseSession
+[0m12:32:32.420398 [debug] [Thread-4  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m12:32:32.421418 [debug] [Thread-4  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:32:32.422212 [debug] [Thread-4  ]: Databricks adapter: query-id: None
+[0m12:32:32.422891 [debug] [Thread-4  ]: Databricks adapter: session-id: b'\x01\xee\x11\xeb\x8a\xff\x10:\x89\x96\xab\xd6\xc6E\x99\xa7'
+[0m12:32:32.425303 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1072cbec-6620-47aa-83b2-5221ba868df8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ffe2880>]}
+[0m12:32:32.426731 [info ] [Thread-4  ]: 3 of 3 OK created sql materialized_view model dbt.user_activity ................ [[32mOK[0m in 170.69s]
+[0m12:32:32.427929 [debug] [Thread-4  ]: Finished running node model.devices_demo.user_activity
+[0m12:32:32.432239 [debug] [MainThread]: On master: ROLLBACK
+[0m12:32:32.433128 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:32:32.981806 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m12:32:32.982601 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m12:32:32.983188 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m12:32:32.983692 [debug] [MainThread]: On master: ROLLBACK
+[0m12:32:32.984078 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m12:32:32.984451 [debug] [MainThread]: On master: Close
+[0m12:32:33.127767 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:32:33.128490 [debug] [MainThread]: Connection 'model.devices_demo.devices' was properly closed.
+[0m12:32:33.128858 [debug] [MainThread]: Connection 'model.devices_demo.users' was properly closed.
+[0m12:32:33.129206 [debug] [MainThread]: Connection 'model.devices_demo.user_activity' was properly closed.
+[0m12:32:33.134860 [info ] [MainThread]: 
+[0m12:32:33.136362 [info ] [MainThread]: Finished running 2 streaming_table models, 1 materialized_view model in 0 hours 6 minutes and 41.89 seconds (401.89s).
+[0m12:32:33.139204 [debug] [MainThread]: Command end result
+[0m12:32:33.153135 [info ] [MainThread]: 
+[0m12:32:33.153538 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:32:33.153765 [info ] [MainThread]: 
+[0m12:32:33.153991 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m12:32:33.154800 [debug] [MainThread]: Command `dbt build` succeeded at 12:32:33.154726 after 403.79 seconds
+[0m12:32:33.155107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102930340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11fb1ba30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11fb4deb0>]}
+[0m12:32:33.155494 [debug] [MainThread]: Flushing usage events
+[0m12:35:46.394275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ddbb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104413eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104413e80>]}
+
+
+============================== 12:35:46.419769 | e94f77b3-daf8-4af6-91a5-fce15703bac0 ==============================
+[0m12:35:46.419769 [info ] [MainThread]: Running with dbt=1.5.0
+[0m12:35:46.420159 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/franco.patano/dbt_projects/devices_demo', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/franco.patano/dbt_projects/devices_demo/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:35:47.360359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100c11e20>]}
+[0m12:35:47.369656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1286ba790>]}
+[0m12:35:47.389085 [debug] [MainThread]: checksum: 4568eb639a77b8fcb3a1f4a07856f42b1ff63f1376652889143968e1dbdafbda, vars: {}, profile: , target: , version: 1.5.0
+[0m12:35:47.431738 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:35:47.432099 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:35:47.436424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128895e50>]}
+[0m12:35:47.442291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1287be9d0>]}
+[0m12:35:47.442638 [info ] [MainThread]: Found 3 models, 0 tests, 0 snapshots, 0 analyses, 426 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics, 0 groups
+[0m12:35:47.442891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1287bea60>]}
+[0m12:35:47.443820 [info ] [MainThread]: 
+[0m12:35:47.444402 [debug] [MainThread]: Acquiring new databricks connection 'master'
+[0m12:35:47.445109 [debug] [ThreadPool]: Acquiring new databricks connection 'list_tech_summit_sql'
+[0m12:35:47.445321 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql"
+[0m12:35:47.445478 [debug] [ThreadPool]: On list_tech_summit_sql: GetSchemas(database=`tech_summit_sql`, schema=None)
+[0m12:35:47.445639 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:35:48.292777 [debug] [ThreadPool]: SQL status: OK in 0.8500000238418579 seconds
+[0m12:35:48.305870 [debug] [ThreadPool]: On list_tech_summit_sql: Close
+[0m12:35:48.468180 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_tech_summit_sql, now create_tech_summit_sql_dbt)
+[0m12:35:48.469733 [debug] [ThreadPool]: Creating schema "database: "tech_summit_sql"
+schema: "dbt"
+"
+[0m12:35:48.477760 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m12:35:48.478063 [debug] [ThreadPool]: Using databricks connection "create_tech_summit_sql_dbt"
+[0m12:35:48.478268 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "create_tech_summit_sql_dbt"} */
+create schema if not exists `tech_summit_sql`.`dbt`
+  
+[0m12:35:48.478458 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:35:49.218672 [debug] [ThreadPool]: SQL status: OK in 0.7400000095367432 seconds
+[0m12:35:49.220384 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m12:35:49.220847 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: ROLLBACK
+[0m12:35:49.221211 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m12:35:49.221534 [debug] [ThreadPool]: On create_tech_summit_sql_dbt: Close
+[0m12:35:49.371306 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_tech_summit_sql_dbt, now list_tech_summit_sql_dbt)
+[0m12:35:49.377598 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:35:49.377924 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: GetTables(database=tech_summit_sql, schema=dbt, identifier=None)
+[0m12:35:49.378152 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:35:50.213856 [debug] [ThreadPool]: SQL status: OK in 0.8399999737739563 seconds
+[0m12:35:50.219786 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m12:35:50.220299 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:35:50.220681 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      select current_catalog()
+  
+[0m12:35:50.490252 [debug] [ThreadPool]: SQL status: OK in 0.27000001072883606 seconds
+[0m12:35:50.495544 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:35:50.495877 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+show views in `tech_summit_sql`.`dbt`
+  
+[0m12:35:50.753767 [debug] [ThreadPool]: SQL status: OK in 0.25999999046325684 seconds
+[0m12:35:50.761876 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:35:50.762201 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      describe extended `tech_summit_sql`.`dbt`.`users`
+  
+[0m12:35:51.358655 [debug] [ThreadPool]: SQL status: OK in 0.6000000238418579 seconds
+[0m12:35:51.365102 [debug] [ThreadPool]: Using databricks connection "list_tech_summit_sql_dbt"
+[0m12:35:51.365647 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "connection_name": "list_tech_summit_sql_dbt"} */
+
+      describe extended `tech_summit_sql`.`dbt`.`devices`
+  
+[0m12:35:51.894570 [debug] [ThreadPool]: SQL status: OK in 0.5299999713897705 seconds
+[0m12:35:51.900429 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: ROLLBACK
+[0m12:35:51.901169 [debug] [ThreadPool]: Databricks adapter: NotImplemented: rollback
+[0m12:35:51.901617 [debug] [ThreadPool]: On list_tech_summit_sql_dbt: Close
+[0m12:35:52.037158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1286e0580>]}
+[0m12:35:52.038081 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m12:35:52.038575 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m12:35:52.039714 [info ] [MainThread]: Concurrency: 25 threads (target='dev')
+[0m12:35:52.041231 [info ] [MainThread]: 
+[0m12:35:52.052211 [debug] [Thread-1  ]: Began running node model.devices_demo.devices
+[0m12:35:52.052978 [debug] [Thread-2  ]: Began running node model.devices_demo.users
+[0m12:35:52.053848 [info ] [Thread-1  ]: 1 of 3 START sql streaming_table model dbt.devices ............................. [RUN]
+[0m12:35:52.055698 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_tech_summit_sql_dbt, now model.devices_demo.devices)
+[0m12:35:52.054609 [info ] [Thread-2  ]: 2 of 3 START sql streaming_table model dbt.users ............................... [RUN]
+[0m12:35:52.056752 [debug] [Thread-1  ]: Began compiling node model.devices_demo.devices
+[0m12:35:52.057943 [debug] [Thread-2  ]: Acquiring new databricks connection 'model.devices_demo.users'
+[0m12:35:52.061122 [debug] [Thread-1  ]: Writing injected SQL for node "model.devices_demo.devices"
+[0m12:35:52.061535 [debug] [Thread-2  ]: Began compiling node model.devices_demo.users
+[0m12:35:52.063958 [debug] [Thread-2  ]: Writing injected SQL for node "model.devices_demo.users"
+[0m12:35:52.064496 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (compile): 12:35:52.058423 => 12:35:52.064328
+[0m12:35:52.064762 [debug] [Thread-1  ]: Began executing node model.devices_demo.devices
+[0m12:35:52.079758 [debug] [Thread-1  ]: Writing runtime sql for node "model.devices_demo.devices"
+[0m12:35:52.080397 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (compile): 12:35:52.061837 => 12:35:52.080234
+[0m12:35:52.080730 [debug] [Thread-2  ]: Began executing node model.devices_demo.users
+[0m12:35:52.084411 [debug] [Thread-2  ]: Writing runtime sql for node "model.devices_demo.users"
+[0m12:35:52.084780 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m12:35:52.085147 [debug] [Thread-1  ]: Using databricks connection "model.devices_demo.devices"
+[0m12:35:52.085404 [debug] [Thread-1  ]: On model.devices_demo.devices: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.devices"} */
+create or refresh streaming table `tech_summit_sql`.`dbt`.`devices`
+  as
+    
+
+SELECT 
+    CAST(user_id AS LONG) as user_id,
+    CAST(calories_burnt AS FLOAT) as calories_burnt,
+    CAST(num_steps AS LONG) as num_steps,
+    CAST(miles_walked AS FLOAT) as miles_walked,
+    CAST(timestamp AS TIMESTAMP) as time_stamp,
+    CAST(device_id AS LONG) as device_id
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-device/*.json");
+
+[0m12:35:52.085670 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:35:52.086113 [debug] [Thread-2  ]: Spark adapter: NotImplemented: add_begin_query
+[0m12:35:52.093549 [debug] [Thread-2  ]: Using databricks connection "model.devices_demo.users"
+[0m12:35:52.094293 [debug] [Thread-2  ]: On model.devices_demo.users: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.users"} */
+create or refresh streaming table `tech_summit_sql`.`dbt`.`users`
+  as
+    
+
+SELECT CAST(userid AS INTEGER) as userid,
+          gender,
+          CAST(age AS INTEGER) as age,
+          CAST(height AS INTEGER) as height,
+          CAST(weight AS INTEGER) as weight,
+          smoker,
+          familyhistory,
+          cholestlevs,
+          bp,
+          CAST(risk AS INTEGER) as risk
+   FROM STREAM read_files("dbfs:/databricks-datasets/iot-stream/data-user/*");
+
+[0m12:35:52.094603 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m12:35:54.281181 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: 126a94f8-2ed2-4a18-9e23-d6ed94aa9109 CREATED
+[0m12:35:54.285287 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 043309d6-7559-4df0-8d5f-8168bba3e87e CREATED
+[0m12:36:04.804305 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: 126a94f8-2ed2-4a18-9e23-d6ed94aa9109 WAITING_FOR_RESOURCES
+[0m12:36:04.815411 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 043309d6-7559-4df0-8d5f-8168bba3e87e WAITING_FOR_RESOURCES
+[0m12:52:49.337405 [info ] [Thread-1  ]: Databricks adapter: refreshing tech_summit_sql.dbt.devices, pipeline: c38b5e14-7478-4c07-a34d-09380e07e6c0, update: 126a94f8-2ed2-4a18-9e23-d6ed94aa9109 COMPLETED
+[0m12:52:49.339643 [info ] [Thread-2  ]: Databricks adapter: refreshing tech_summit_sql.dbt.users, pipeline: f39cee46-1d3d-43bb-a703-694a2dcbd78b, update: 043309d6-7559-4df0-8d5f-8168bba3e87e COMPLETED
+[0m12:52:49.339982 [debug] [Thread-1  ]: SQL status: OK in 1017.25 seconds
+[0m12:52:49.340243 [debug] [Thread-2  ]: SQL status: OK in 1017.25 seconds
+[0m12:52:49.349255 [debug] [Thread-1  ]: Timing info for model.devices_demo.devices (execute): 12:35:52.064928 => 12:52:49.349114
+[0m12:52:49.350573 [debug] [Thread-2  ]: Timing info for model.devices_demo.users (execute): 12:35:52.080962 => 12:52:49.350453
+[0m12:52:49.350845 [debug] [Thread-1  ]: On model.devices_demo.devices: ROLLBACK
+[0m12:52:49.351097 [debug] [Thread-2  ]: On model.devices_demo.users: ROLLBACK
+[0m12:52:49.351335 [debug] [Thread-1  ]: Databricks adapter: NotImplemented: rollback
+[0m12:52:49.351581 [debug] [Thread-2  ]: Databricks adapter: NotImplemented: rollback
+[0m12:52:49.351796 [debug] [Thread-1  ]: On model.devices_demo.devices: Close
+[0m12:52:49.352004 [debug] [Thread-2  ]: On model.devices_demo.users: Close
+[0m12:52:49.900205 [debug] [Thread-2  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.901844 [debug] [Thread-2  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.902756 [debug] [Thread-2  ]: Databricks adapter: attempt: 1/30
+[0m12:52:49.903563 [debug] [Thread-2  ]: Databricks adapter: bounded-retry-delay: None
+[0m12:52:49.904973 [debug] [Thread-1  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.905566 [debug] [Thread-2  ]: Databricks adapter: elapsed-seconds: 0.5467510223388672/900.0
+[0m12:52:49.906122 [debug] [Thread-1  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.906620 [debug] [Thread-2  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.907210 [debug] [Thread-1  ]: Databricks adapter: attempt: 1/30
+[0m12:52:49.907800 [debug] [Thread-2  ]: Databricks adapter: http-code: 400
+[0m12:52:49.908303 [debug] [Thread-1  ]: Databricks adapter: bounded-retry-delay: None
+[0m12:52:49.908866 [debug] [Thread-2  ]: Databricks adapter: method: CloseSession
+[0m12:52:49.909382 [debug] [Thread-1  ]: Databricks adapter: elapsed-seconds: 0.5523960590362549/900.0
+[0m12:52:49.909945 [debug] [Thread-2  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m12:52:49.910432 [debug] [Thread-1  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.910951 [debug] [Thread-2  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.911511 [debug] [Thread-1  ]: Databricks adapter: http-code: 400
+[0m12:52:49.911983 [debug] [Thread-2  ]: Databricks adapter: query-id: None
+[0m12:52:49.912556 [debug] [Thread-1  ]: Databricks adapter: method: CloseSession
+[0m12:52:49.913075 [debug] [Thread-2  ]: Databricks adapter: session-id: b'\x01\xee\x11\xecg\xba\x19\xc9\x88\xd4\xd6ma\x95\x05l'
+[0m12:52:49.913607 [debug] [Thread-1  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m12:52:49.916643 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128d43dc0>]}
+[0m12:52:49.917637 [debug] [Thread-1  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:52:49.919092 [info ] [Thread-2  ]: 2 of 3 OK created sql streaming_table model dbt.users .......................... [[32mOK[0m in 1017.86s]
+[0m12:52:49.920028 [debug] [Thread-1  ]: Databricks adapter: query-id: None
+[0m12:52:49.921814 [debug] [Thread-2  ]: Finished running node model.devices_demo.users
+[0m12:52:49.922451 [debug] [Thread-1  ]: Databricks adapter: session-id: b'\x01\xee\x11\xecg\xbe\x1c\x99\xacH?o\x7f\xaeL\xd3'
+[0m12:52:49.924023 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128d2f670>]}
+[0m12:52:49.925652 [info ] [Thread-1  ]: 1 of 3 OK created sql streaming_table model dbt.devices ........................ [[32mOK[0m in 1017.87s]
+[0m12:52:49.926562 [debug] [Thread-1  ]: Finished running node model.devices_demo.devices
+[0m12:52:49.927506 [debug] [Thread-4  ]: Began running node model.devices_demo.user_activity
+[0m12:52:49.928131 [info ] [Thread-4  ]: 3 of 3 START sql materialized_view model dbt.user_activity ..................... [RUN]
+[0m12:52:49.929089 [debug] [Thread-4  ]: Acquiring new databricks connection 'model.devices_demo.user_activity'
+[0m12:52:49.929446 [debug] [Thread-4  ]: Began compiling node model.devices_demo.user_activity
+[0m12:52:49.934397 [debug] [Thread-4  ]: Writing injected SQL for node "model.devices_demo.user_activity"
+[0m12:52:49.935415 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (compile): 12:52:49.929675 => 12:52:49.935223
+[0m12:52:49.935745 [debug] [Thread-4  ]: Began executing node model.devices_demo.user_activity
+[0m12:52:49.947000 [debug] [Thread-4  ]: Writing runtime sql for node "model.devices_demo.user_activity"
+[0m12:52:49.947889 [debug] [Thread-4  ]: Spark adapter: NotImplemented: add_begin_query
+[0m12:52:49.948124 [debug] [Thread-4  ]: Using databricks connection "model.devices_demo.user_activity"
+[0m12:52:49.948363 [debug] [Thread-4  ]: On model.devices_demo.user_activity: /* {"app": "dbt", "dbt_version": "1.5.0", "dbt_databricks_version": "1.5.4dev2", "databricks_sql_connector_version": "2.6.2", "profile_name": "devices_demo", "target_name": "dev", "node_id": "model.devices_demo.user_activity"} */
+refresh materialized view `tech_summit_sql`.`dbt`.`user_activity`
+
+[0m12:52:49.948641 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m12:52:52.250113 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 99d2cdab-44fc-4f13-91d3-999ae5aa1445 CREATED
+[0m12:54:04.273666 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 99d2cdab-44fc-4f13-91d3-999ae5aa1445 WAITING_FOR_RESOURCES
+[0m12:57:33.801652 [info ] [Thread-4  ]: Databricks adapter: refreshing tech_summit_sql.dbt.user_activity, pipeline: 7065b76b-7ce4-44f8-96e0-60ba4af00f2a, update: 99d2cdab-44fc-4f13-91d3-999ae5aa1445 COMPLETED
+[0m12:57:33.804443 [debug] [Thread-4  ]: SQL status: OK in 283.8599853515625 seconds
+[0m12:57:33.809745 [debug] [Thread-4  ]: Timing info for model.devices_demo.user_activity (execute): 12:52:49.935948 => 12:57:33.809329
+[0m12:57:33.810723 [debug] [Thread-4  ]: On model.devices_demo.user_activity: ROLLBACK
+[0m12:57:33.811467 [debug] [Thread-4  ]: Databricks adapter: NotImplemented: rollback
+[0m12:57:33.812152 [debug] [Thread-4  ]: On model.devices_demo.user_activity: Close
+[0m12:57:34.281155 [debug] [Thread-4  ]: Databricks adapter: Exception while closing connection: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:57:34.283363 [debug] [Thread-4  ]: Databricks adapter: <class 'databricks.sql.exc.RequestError'>: Error during request to server: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:57:34.284359 [debug] [Thread-4  ]: Databricks adapter: attempt: 1/30
+[0m12:57:34.285286 [debug] [Thread-4  ]: Databricks adapter: bounded-retry-delay: None
+[0m12:57:34.286204 [debug] [Thread-4  ]: Databricks adapter: elapsed-seconds: 0.467144250869751/900.0
+[0m12:57:34.287153 [debug] [Thread-4  ]: Databricks adapter: error-message: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:57:34.288099 [debug] [Thread-4  ]: Databricks adapter: http-code: 400
+[0m12:57:34.288992 [debug] [Thread-4  ]: Databricks adapter: method: CloseSession
+[0m12:57:34.289890 [debug] [Thread-4  ]: Databricks adapter: no-retry-reason: non-retryable error
+[0m12:57:34.290812 [debug] [Thread-4  ]: Databricks adapter: original-exception: MALFORMED_REQUEST: Client dbt-databricks/1.5.4dev2 is not supported for SQL warehouses.SimbaJDBCDriver 2.6.14, SimbaODBCDriver 2.6.15 or above is required.
+[0m12:57:34.292575 [debug] [Thread-4  ]: Databricks adapter: query-id: None
+[0m12:57:34.293717 [debug] [Thread-4  ]: Databricks adapter: session-id: b'\x01\xee\x11\xee\xc6v\x1ag\xa4<(\xb0\xd8\xd2\xbd\xcd'
+[0m12:57:34.296812 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e94f77b3-daf8-4af6-91a5-fce15703bac0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1289c3970>]}
+[0m12:57:34.298686 [info ] [Thread-4  ]: 3 of 3 OK created sql materialized_view model dbt.user_activity ................ [[32mOK[0m in 284.37s]
+[0m12:57:34.300183 [debug] [Thread-4  ]: Finished running node model.devices_demo.user_activity
+[0m12:57:34.305709 [debug] [MainThread]: On master: ROLLBACK
+[0m12:57:34.306462 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:57:34.803271 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m12:57:34.805497 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m12:57:34.806318 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m12:57:34.807168 [debug] [MainThread]: On master: ROLLBACK
+[0m12:57:34.807966 [debug] [MainThread]: Databricks adapter: NotImplemented: rollback
+[0m12:57:34.808721 [debug] [MainThread]: On master: Close
+[0m12:57:34.959896 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:57:34.961112 [debug] [MainThread]: Connection 'model.devices_demo.devices' was properly closed.
+[0m12:57:34.961833 [debug] [MainThread]: Connection 'model.devices_demo.users' was properly closed.
+[0m12:57:34.962528 [debug] [MainThread]: Connection 'model.devices_demo.user_activity' was properly closed.
+[0m12:57:34.974305 [info ] [MainThread]: 
+[0m12:57:34.976038 [info ] [MainThread]: Finished running 2 streaming_table models, 1 materialized_view model in 0 hours 21 minutes and 47.53 seconds (1307.53s).
+[0m12:57:34.979063 [debug] [MainThread]: Command end result
+[0m12:57:34.996392 [info ] [MainThread]: 
+[0m12:57:34.997106 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:57:34.997575 [info ] [MainThread]: 
+[0m12:57:34.998072 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m12:57:34.999540 [debug] [MainThread]: Command `dbt run` succeeded at 12:57:34.999358 after 148.86 seconds
+[0m12:57:35.000116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102ddbb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1286ba790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128991a90>]}
+[0m12:57:35.000594 [debug] [MainThread]: Flushing usage events
+[0m12:59:26.422045 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
